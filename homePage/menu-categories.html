@@ -38,7 +38,7 @@
 
         		<div id="collapsable-nav" class="collapse navbar-collapse">
            			<ul id="nav-list" class="nav navbar-nav navbar-right">
-            			<li>
+            			<li class="active">
              				 <a href="menu-categories.html">
              				 <!-- icons from bootstrap file. Class hidden-xs hides them when screen is small--> 
                					 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
@@ -47,34 +47,90 @@
              				 <a href="#">
                					 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
            				 </li>
-            			<li>
+            			 <li>
              				 <a href="#">
                 				<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
             			</li>
            				 <li id="phone" class="hidden-xs">
            				 <!-- tel triggers the phone to call-->
-             				 <a href="tel:410-602-5008">
-               					 <span>410-602-5008</span></a><div>* We Deliver</div>
+             				 <a href="tel:347-602-5008">
+               					 <span>347-602-5008</span></a><div>* We Deliver</div>
             			</li>
           			</ul><!-- #nav-list -->
         		</div><!-- .collapse .navbar-collapse -->
       			</div><!-- .container -->
+          </nav>
+		    </header>
 
-			</nav>
-		</header>
-		<div id="call-btn" class="visible-xs">
-    		<a class="btn" href="tel:410-602-5008">
-    		<span class="glyphicon glyphicon-earphone"></span>
-    			410-602-5008
+
+		    <div id="call-btn" class="visible-xs">
+    		  <a class="btn" href="tel:347-602-5008">
+    		  <span class="glyphicon glyphicon-earphone"></span>
+    			347-602-5008
     			</a>
-  		</div>
-  		<div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+  		  </div>
+  		  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
-  		<div id="main-content" class="container">
+  		  <div id="main-content" class="container">
   			
-  			<div class="container"
-  				<div class="row">
-  					<section id="hours" class="col-sm-4">
+  			<div class="container">
+          <h2 id="menu-categories-title" class="text-center">Menu Categories</h2>
+          <section class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+              <a href="single-category.html">
+                <div class="category-tile">
+                  <img width="200" heigth="200" src="images/menu/cupcakes.jpg alt="Desserts">
+                  <span>Desserts</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+              <a href="single-category.html">
+                <div class="category-tile">
+                  <img width="200" heigth="200" src="images/menu/coffee.jpg alt="Coffee">
+                  <span>Coffee</span>
+                </div>
+              </a>
+            </div>
+             <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+              <a href="single-category.html">
+                <div class="category-tile">
+                  <img width="200" heigth="200" src="images/menu/panini.jpg alt="Panini">
+                  <span>Panini</span>
+                </div>
+              </a>
+            </div>
+             <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+              <a href="single-category.html">
+                <div class="category-tile">
+                  <img width="200" heigth="200" src="images/menu/crepes.jpg alt="Crepes">
+                  <span>Crepes</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+              <a href="single-category.html">
+                <div class="category-tile">
+                  <img width="200" heigth="200" src="images/menu/omelete.jpg alt="Omelletes">
+                  <span>Omelletes</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+              <a href="single-category.html">
+                <div class="category-tile">
+                  <img width="200" heigth="200" src="images/menu/cakes.jpg alt="Cakes">
+                  <span>Cakes</span>
+                </div>
+              </a>
+            </div>
+          </section>
+        </div> <!-- End of #main-content -->
+
+  			<footer class="panel-footer">
+          <div class="container">
+            <div class="row">
+              <section id="hours" class="col-sm-4">
          			 <span>Hours:</span><br>
          			 Sun-Thurs: 11:15am - 10:00pm<br>
           			 Fri: 11:15am - 2:30pm<br>
@@ -100,7 +156,7 @@
 
 
 	<!--jQuery (Bootstrap JS plugins depend on) -->
-	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="js/jquery-2.2.4.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 	</body>
